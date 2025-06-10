@@ -1,5 +1,5 @@
 import { useState } from "react";
-import RegisterDialog from "../components/RegisterDialog";
+import RegisterDialog from "./components/RegisterDialog";
 import { useParams } from "react-router-dom";
 import { courses } from "../data/courses";
 
