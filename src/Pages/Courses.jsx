@@ -1,6 +1,6 @@
-import { courses } from "../Data/courses";
+import { courses } from "../data/courses";
 import { Container, Row, Col } from "react-bootstrap";
-import CourseCard from "../Components/CourseCard";
+import CourseCard from "../components/CourseCard";
 
 /* Här används Bootstrap för Layout - Grid - Row  */
 /*Visar kurser */
