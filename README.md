@@ -1,12 +1,28 @@
-# React + Vite
+StudentPortal 📚
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Detta är ett React-projekt. 
+Projektet är en enkel **StudentPortal** där studenter kan:
 
-Currently, two official plugins are available:
+- Se information om tillgängliga kurser
+- Läsa nyheter och uppdateringar
+- Registrera sig till kurser via ett formulär
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🛠 Tekniker som används
 
-## Expanding the ESLint configuration
+- **React** – Komponentbaserad utveckling
+- **React Router** – Navigering mellan sidor
+- **Bootstrap** – Layout och grundläggande UI
+- **Material UI** – Dialogrutor och formulär
+- **Context API** – Delad state för registrerade kurser
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+ 📁 Funktioner
+
+- Startsida med introduktion
+- Kurssida med grid-layout (Bootstrap Cards)
+- Dynamiska kurssidor med mer information
+- Registreringsformulär i en dialogruta (Material UI)
+- Nyhetssida (hårdkodade inlägg)
+- Bekräftelsesida efter registrering
+- Global state för registreringar via Context API
+
+
