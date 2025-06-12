@@ -11,7 +11,7 @@ function Home() {
       <Row className="mt-4">
         {courses.map((course) => (
           <Col md={4} key={course.id} className="mb-3">
-            {/* Gör hela kortet klickbart med Link */}
+            {/* Gör bilderna klickbar med Link */}
             <Card
               as={Link}
               to={`/courses/${course.id}`}
@@ -22,7 +22,7 @@ function Home() {
                   variant="top"
                   src={course.image}
                   alt={course.name}
-                  style={{ height: "150px", objectFit: "cover" }}
+                  style={{ height: "250px", objectFit: "cover" }}
                 />
               )}
               <Card.Body>
