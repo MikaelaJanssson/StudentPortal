@@ -18,6 +18,10 @@ function Navbar() {
             <Nav.Link as={Link} to="/courses">
               Kurser
             </Nav.Link>
+            <Nav.Link as={Link} to="/my-courses">
+              Mina kurser
+            </Nav.Link>
+
             <Nav.Link as={Link} to="/news">
               Nyheter
             </Nav.Link>

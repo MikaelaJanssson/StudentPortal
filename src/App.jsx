@@ -6,6 +6,7 @@ import CourseDetails from "./Pages/CourseDetails";
 import News from "./Pages/News";
 import { RegistrationProvider } from "./context/RegistrationContext";
 import Confirmation from "./Pages/Confirmation";
+import MyCourses from "./Pages/MyCourses";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/courses" element={<Courses />} />
           <Route path="/courses/:id" element={<CourseDetails />} />
+          <Route path="/my-courses" element={<MyCourses />} />
           <Route path="/news" element={<News />} />
           <Route path="/confirmation" element={<Confirmation />} />
         </Routes>

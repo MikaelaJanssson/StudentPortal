@@ -9,6 +9,7 @@ export const courses = [
       "I denna kurs lär du dig skapa webbsidor med HTML och CSS. Vi går även igenom grunderna i JavaScript.",
     duration: "10 veckor",
     teacher: "Anna Svensson",
+    image: "/src/images/webbutveckling.jpg",
   },
   {
     id: "2",
@@ -18,6 +19,7 @@ export const courses = [
       "Lär dig grunderna i React: komponenter, props, state och hooks. Perfekt för dig som är ny på frontendutveckling.",
     duration: "8 veckor",
     teacher: "Erik Johansson",
+    image: "/src/images/react.jpg",
   },
   {
     id: "3",
@@ -27,5 +29,6 @@ export const courses = [
       "Kursen fokuserar på ren JavaScript – DOM, funktioner, objekt, eventhantering och API-anrop.",
     duration: "6 veckor",
     teacher: "Karin Nilsson",
+    image: "/src/images/javascript1.jpg",
   },
 ];

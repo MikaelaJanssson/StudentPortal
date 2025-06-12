@@ -4,3 +4,9 @@
   transition: all 0.3s ease;
   cursor: pointer;
 }
+
+/*Skapar samma storlek på course img*/
+.card-img-top {
+  height: 300px;
+  object-fit: cover;
+}
